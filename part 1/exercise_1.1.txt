@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+9eb836a612cd   redis     "docker-entrypoint.s…"   About a minute ago   Exited (0) 32 seconds ago             zealous_pasteur
+70068a124400   mongo     "docker-entrypoint.s…"   About a minute ago   Exited (0) 49 seconds ago             infallible_golick
+2ec6f5c8c31f   nginx     "/docker-entrypoint.…"   5 minutes ago        Up 5 minutes                80/tcp    sleepy_euclid
