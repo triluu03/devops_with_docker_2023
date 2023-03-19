@@ -1,0 +1,6 @@
+# This file is returned using the 2 commands:
+# docker ps -a >> exercise_1.2.txt
+# docker images >> exercise_1.2.txt
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
+
