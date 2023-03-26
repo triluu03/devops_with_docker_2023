@@ -1,0 +1,5 @@
+Access to the container with bash using command (festive_agnesi is the name of the container):
+- docker exec -it festive_agnesi bash
+- tail -f ./text.log
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
