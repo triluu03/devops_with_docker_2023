@@ -1,0 +1,8 @@
+The command to start the container:
+    docker run -it devopsdockeruh/pull_exercise
+
+The password to get the secret message is: 
+    basics
+
+The secret message is:
+    "This is the secret message"

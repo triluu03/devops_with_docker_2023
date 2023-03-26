@@ -1,0 +1,9 @@
+Command to start the container:
+    docker container run -it --name exercise_1.4 ubuntu
+
+Command to start the process:
+    sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+Command to fix the missing dependencies:
+    apt-get update
+    apt-get -y install curl

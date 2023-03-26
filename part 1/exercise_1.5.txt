@@ -1,0 +1,17 @@
+Image comparison using the command:
+    docker image ls >> exercise_1.5.txt
+NOTE: other images in Docker has been removed in this text file.
+
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 years ago     83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago     15.7MB
+
+We can see that the size of alpine image is much smaller than ubuntu image.
+
+The command to make sure the secret message work the same:
+    1. Start the container with alpine image:
+        docker run -it devopsdockeruh/simple-web-service:alpine
+    2. Create a new process in the container (name of the container: interesting_vaughan):
+        docker exec -it interesting_vaughan sh
+    3. Check the log file:
+        tail -f ./text.log
