@@ -1,0 +1,5 @@
+Command to run a container with a specified publised port:
+    docker run -p 3000:8080 devopsdockeruh/simple-web-service:alpine server
+
+Then the web server can be accessed with the browser using the address:
+    http://localhost:3000
