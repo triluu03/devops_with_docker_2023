@@ -1,0 +1,2 @@
+Command used to complete the exercise:
+    docker container run -v "$(pwd)/exercise_1.9:/usr/src/app/text.log" devopsdockeruh/simple-web-service
