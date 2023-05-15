@@ -1,0 +1,5 @@
+Command used to build the image:
+    docker build . -t exercise_1.13
+
+Command usedd to run the image:
+    docker run -p 8080:8080 exercise_1.13
