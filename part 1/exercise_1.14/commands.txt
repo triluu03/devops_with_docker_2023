@@ -1,0 +1,11 @@
+Commands used to build Docker images:
+    - Frontend: (navigate to frontend root folder)
+        docker build . -t exercise_1.14_frontend
+    - Backend: (navigate to backend root folder)
+        docker build . -t exercise_1.14_backend
+
+Commands used to run Docker images:
+    - Frontend:
+        docker container run -p 4000:4000 exercise_1.14_frontend
+    - Backend:
+        docker container run -p 8080:8080 exercise_1.14_backend
