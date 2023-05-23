@@ -12,6 +12,8 @@ services:
         ports:
             - 8080:8080
         container_name: backend
+        environment:
+            - REDIS_HOST=redis
 
     cache:
         image: redis:latest
