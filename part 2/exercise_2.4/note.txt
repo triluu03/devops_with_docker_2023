@@ -1,0 +1,2 @@
+Note: add the following environment variable to Dockerfile for backend:
+    - ENV REDIS_HOST=redis
