@@ -1,0 +1,5 @@
+Changes made to the frontend Dockerfile:
+    - Change the environment variable REACT_APP_API_URL to http://localhost/api/
+
+Changes made to the backend Dockerfile:
+    - Change the environment variable REQUEST_ORIGIN to http://localhost
